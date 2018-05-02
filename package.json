@@ -1,0 +1,36 @@
+{
+  "name": "morgue-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "data.either": "^1.5.1",
+    "immutable": "^3.8.2",
+    "markdown": "^0.5.0",
+    "moment": "^2.22.1",
+    "prop-types": "^15.6.1",
+    "ramda": "^0.25.0",
+    "react": "^16.3.2",
+    "react-codemirror": "^1.0.0",
+    "react-datetime": "^2.14.0",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^5.0.0",
+    "recompose": "^0.27.0",
+    "redux": "3.x.x",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-observable": "^0.18.0",
+    "redux-persist": "^5.9.1",
+    "redux-persist-transform-immutable": "^5.0.0",
+    "rxjs": "5.x.x",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

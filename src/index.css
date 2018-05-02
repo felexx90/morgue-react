@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.ReactCodeMirror {
+    border: 1px solid #ccc;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
