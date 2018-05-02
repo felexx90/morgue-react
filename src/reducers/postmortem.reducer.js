@@ -18,7 +18,6 @@ export default (state = INITIAL_STATE, { type, payload }) => {
     case types.ADD_POSTMORTEM:
       return state.update('postmortems', postmortems => postmortems.set(payload.postmortem.get('id'), payload.postmortem));
     case types.REMOVE_POSTMORTEM:
-      console.log(payload.postmortem.get('id'));
       return state.update('postmortems', postmortems => postmortems.delete(payload.postmortem.get('id')));
     case types.EDIT_POSTMORTEM:
       return state.update('postmortems',

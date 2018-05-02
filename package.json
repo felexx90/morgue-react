@@ -8,6 +8,7 @@
     "data.either": "^1.5.1",
     "gh-pages": "^1.1.0",
     "immutable": "^3.8.2",
+    "jest-immutable-matchers": "^2.0.1",
     "markdown": "^0.5.0",
     "moment": "^2.22.1",
     "prop-types": "^15.6.1",
@@ -26,6 +27,7 @@
     "redux-observable": "^0.18.0",
     "redux-persist": "^5.9.1",
     "redux-persist-transform-immutable": "^5.0.0",
+    "redux-testkit": "^1.0.6",
     "rxjs": "5.x.x",
     "uuid": "^3.2.1"
   },
