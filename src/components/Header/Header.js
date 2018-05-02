@@ -19,7 +19,7 @@ const Toggle = withStateHandlers(
 
 const Header = ({ toggleNavbar, navigateTo, collapsed, searchPostmortem }) => (
   <Navbar color="dark" dark expand="md" fixed={'100'} >
-    <NavbarBrand href="/" >Morgue-React</NavbarBrand >
+    <NavbarBrand href={`${process.env.PUBLIC_URL}/`} >Morgue-React</NavbarBrand >
     <NavbarToggler onClick={toggleNavbar} className="mr-2" />
     <Collapse isOpen={!collapsed} navbar >
       <Nav className="ml-auto" navbar >
