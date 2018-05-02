@@ -18,8 +18,8 @@ const { store, persistor } = configurationStore();
 
 const app = (
   <Provider store={store} >
-    <PersistGate persistor={persistor}>
-      <BrowserRouter >
+    <PersistGate persistor={persistor} >
+      <BrowserRouter basename={process.env.PUBLIC_URL} >
         <App />
       </BrowserRouter >
     </PersistGate >

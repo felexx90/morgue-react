@@ -2,9 +2,11 @@
   "name": "morgue-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://felexx90.github.io/morgue-react",
   "dependencies": {
     "bootstrap": "^4.1.0",
     "data.either": "^1.5.1",
+    "gh-pages": "^1.1.0",
     "immutable": "^3.8.2",
     "markdown": "^0.5.0",
     "moment": "^2.22.1",
@@ -28,6 +30,8 @@
     "uuid": "^3.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
